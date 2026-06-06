@@ -1,87 +1,104 @@
 <p align="center">
-  <img src="https://github.com/PatrickSt1991/Samsung-Jellyfin-Installer/blob/master/.github/jellyfin-tizen-logo.svg" alt="Jellyfin2Samsung logo" width="160">
+  <img src="https://raw.githubusercontent.com/Apps2Samsung/Apps2Samsung/beta/.github/jellyfin-tizen-logo.svg" alt="Apps2Samsung logo" width="160">
 </p>
 
-<h1 align="center">Jellyfin2Samsung</h1>
+<h1 align="center">Apps2Samsung</h1>
+
+<p align="center"><i>Install any app on your Samsung TV.</i></p>
 
 <p align="center">
-  <a href="https://github.com/Jellyfin2Samsung">
-    <img alt="GitHub Org" src="https://img.shields.io/badge/GitHub-Jellyfin2Samsung-181717?logo=github">
+  <a href="https://github.com/Apps2Samsung/Apps2Samsung">
+    <img alt="Installer" src="https://img.shields.io/github/v/release/Apps2Samsung/Apps2Samsung?label=installer&color=10b981">
   </a>
-  <a href="https://github.com/Jellyfin2Samsung/Jellyfin-Orsay-Installer">
-    <img alt="Orsay Installer" src="https://img.shields.io/badge/Orsay-TV-blue">
+  <a href="https://github.com/Apps2Samsung/tizen-community-packages">
+    <img alt="Community catalog" src="https://img.shields.io/badge/community-catalog-2dd4bf">
   </a>
-  <a href="https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer">
-    <img alt="Tizen Installer" src="https://img.shields.io/badge/Tizen-TV-green">
+  <a href="https://apps2samsung.madebypatrick.nl">
+    <img alt="Website" src="https://img.shields.io/badge/web-apps2samsung.madebypatrick.nl-181717">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/Jellyfin2Samsung/Jellyfin-Orsay-Installer">
+  <img alt="License" src="https://img.shields.io/github/license/Apps2Samsung/Apps2Samsung">
 </p>
 
 ---
 
-🎬 **Making Jellyfin feel at home on Samsung TVs**  
-Even the stubborn ones.
+📺 **Putting *your* apps on Samsung screens**  
+TVs, projectors, smart monitors — even the stubborn ones.
 
 This is a small, friendly corner of GitHub where people tinker, test, break things (sometimes),
-and put them back together so **Jellyfin can run on Samsung Smart TVs**.
+and put them back together so **any app can run on Samsung Tizen devices** —
+Jellyfin, Moonlight, Moonfin, Litefin and a whole community catalog.
 
 No company. No roadmap. Just curiosity and community.
+
+> 🔄 **Formerly known as Jellyfin2Samsung.** Same tool, same people, bigger mission.
+> [Read the rebrand FAQ](https://github.com/Apps2Samsung/Apps2Samsung/discussions/365) — including what to do if your auto-update complains.
 
 ---
 
 ## 📦 What lives here?
 
-### 🧓 Jellyfin-Orsay-Installer
-For **older Samsung TVs running Orsay OS**  
-(the ones everyone forgot… but still work just fine).
+### 🚀 Apps2Samsung
+The cross-platform installer (Windows, macOS, Linux).
+Detects your Samsung device, handles certificates, installs any `.wgt` — one click.
 
-➡️ https://github.com/Jellyfin2Samsung/Jellyfin-Orsay-Installer
+➡️ https://github.com/Apps2Samsung/Apps2Samsung
 
-- Legacy TV support
-- Tested by real humans with real TVs
+- Auto TV discovery & Tizen certificate handling
+- Jellyfin builds, community apps, or bring your own `.wgt`
+- 🌐 https://apps2samsung.madebypatrick.nl
 
 ---
 
-### 🧑‍💻 Samsung-Jellyfin-Installer
-For **Samsung TVs running Tizen**  
-(newer, shinier, still a bit opinionated).
+### 🧩 tizen-community-packages
+The **community catalog** — curated `.wgt` builds, bundled and synced automatically.
+Moonlight, FCast, Stremio, Twitch, emulators, even Doom.
 
-➡️ https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer
+➡️ https://github.com/Apps2Samsung/tizen-community-packages
 
-- Developer-mode installation
-- Slowly getting better with every PR
+- Want an app added? Open an issue
+- Maintain a Tizen app? We'd love to include it
+
+---
+
+### 🧓 The Orsay era (archived)
+For Samsung TVs from before 2015 running **Orsay OS**. End-of-life, no longer maintained —
+but the last working builds remain available.
+
+➡️ https://github.com/Apps2Samsung/Jellyfin-Orsay-Installer
 
 ---
 
 ## 🤔 Why does this exist?
 
 Because:
-- Jellyfin is awesome
+- Samsung's app store doesn't have everything
 - Samsung TVs are… special
 - Community solutions beat abandoned forum posts
 
-If a TV can still show movies, it deserves Jellyfin.
+If a screen can run Tizen, it deserves your apps.
 
 ---
 
 ## 🛠 Want to help?
 
-You don’t need to be an expert.
+You don't need to be an expert.
 
 - Found a bug? Open an issue
 - Tested it on a weird TV model? Please tell us
+- Built a Tizen app? Get it in the catalog
 - Like writing docs more than code? We love you already
+- 🌍 Translations: [Transifex](https://app.transifex.com/madebypatrick/apps2samsung) · [Crowdin](https://crowdin.com/project/jellyfin2samsung)
 
-Every contribution helps someone else binge in peace 🍿
+Every contribution helps someone else binge (or game, or cast) in peace 🍿
 
 ---
 
 ## ⚠️ The small print (friendly version)
 
-- Not affiliated with Jellyfin or Samsung
-- Stuff here works because people tested it, not because it’s “official”
+- Not affiliated with Samsung, Jellyfin, or any of the apps in the catalog
+- Stuff here works because people tested it, not because it's "official"
 - Enabling developer mode / sideloading is your call
 
 ---
 
-💙 If Jellyfin is now playing on your Samsung TV because of this org — mission accomplished.
+💙 If your favourite app is now running on your Samsung screen because of this org — mission accomplished.
