@@ -13,8 +13,8 @@
   <a href="https://github.com/Apps2Samsung/tizen-community-packages">
     <img alt="Community catalog" src="https://img.shields.io/badge/community-catalog-2dd4bf">
   </a>
-  <a href="https://apps2samsung.madebypatrick.nl">
-    <img alt="Website" src="https://img.shields.io/badge/web-apps2samsung.madebypatrick.nl-181717">
+  <a href="https://www.apps2samsung.com">
+    <img alt="Website" src="https://img.shields.io/badge/web-www.apps2samsung.com-181717">
   </a>
   <img alt="License" src="https://img.shields.io/github/license/Apps2Samsung/Apps2Samsung">
 </p>
@@ -45,7 +45,7 @@ Detects your Samsung device, handles certificates, installs any `.wgt` — one c
 
 - Auto TV discovery & Tizen certificate handling
 - Jellyfin builds, community apps, or bring your own `.wgt`
-- 🌐 https://apps2samsung.madebypatrick.nl
+- 🌐 https://www.apps2samsung.com
 
 ---
 
