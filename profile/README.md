@@ -38,13 +38,14 @@ No company. No roadmap. Just curiosity and community.
 ## 📦 What lives here?
 
 ### 🚀 Apps2Samsung
-The cross-platform installer (Windows, macOS, Linux).
-Detects your Samsung device, handles certificates, installs any `.wgt` — one click.
+The installer for Windows, macOS and Linux, plus an Android app, an iPhone app (beta) and a command line.
+Detects your Samsung device, handles certificates, installs any `.wgt` or `.tpk` in one click.
 
 ➡️ https://github.com/Apps2Samsung/Apps2Samsung
 
 - Auto TV discovery & Tizen certificate handling
-- Jellyfin builds, community apps, or bring your own `.wgt`
+- Jellyfin builds, 110+ community apps, or bring your own `.wgt`
+- Manage what's on the TV, update apps, use it as a remote
 - 🌐 https://www.apps2samsung.com
 
 ---
@@ -60,11 +61,24 @@ Moonlight, FCast, Stremio, Twitch, emulators, even Doom.
 
 ---
 
-### 🧓 The Orsay era (archived)
-For Samsung TVs from before 2015 running **Orsay OS**. End-of-life, no longer maintained —
-but the last working builds remain available.
+### 🛒 TV-Store (experimental)
+The catalog on the TV itself: arm it once from Apps2Samsung, then browse and install apps with the remote, no PC or phone needed.
 
-➡️ https://github.com/Apps2Samsung/Jellyfin-Orsay-Installer
+➡️ https://github.com/Apps2Samsung/TV-Store
+
+---
+
+### 🧰 Also here
+- [homebrew-apps2samsung](https://github.com/Apps2Samsung/homebrew-apps2samsung) and [winget-apps2samsung](https://github.com/Apps2Samsung/winget-apps2samsung): install the desktop app with your package manager
+- [yt-dlp-tv](https://github.com/Apps2Samsung/yt-dlp-tv): the YouTube trailers fix for Jellyfin
+- [ReolinkViewer](https://github.com/Apps2Samsung/ReolinkViewer): watch a Reolink camera on the TV, no cloud
+
+---
+
+### 🧓 Archived
+- **The Orsay era**: for Samsung TVs from before 2015 running **Orsay OS**. End-of-life, no longer maintained,
+  but the last working builds remain available: https://github.com/Apps2Samsung/Jellyfin-Orsay-Installer
+- **Overscan**: a sideloadable web browser for Tizen TVs, discontinued: https://github.com/Apps2Samsung/Overscan
 
 ---
 
@@ -87,7 +101,7 @@ You don't need to be an expert.
 - Tested it on a weird TV model? Please tell us
 - Built a Tizen app? Get it in the catalog
 - Like writing docs more than code? We love you already
-- 🌍 Translations: [Transifex](https://app.transifex.com/madebypatrick/apps2samsung) · [Crowdin](https://crowdin.com/project/jellyfin2samsung)
+- 🌍 Translations: [Crowdin](https://crowdin.com/project/jellyfin2samsung)
 
 Every contribution helps someone else binge (or game, or cast) in peace 🍿
 
