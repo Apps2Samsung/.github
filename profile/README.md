@@ -22,16 +22,16 @@
 ---
 
 📺 **Putting *your* apps on Samsung screens**  
-TVs, projectors, smart monitors — even the stubborn ones.
+TVs, projectors, smart monitors, even the stubborn ones.
 
 This is a small, friendly corner of GitHub where people tinker, test, break things (sometimes),
-and put them back together so **any app can run on Samsung Tizen devices** —
+and put them back together so **any app can run on Samsung Tizen devices**:
 Jellyfin, Moonlight, Moonfin, Litefin and a whole community catalog.
 
 No company. No roadmap. Just curiosity and community.
 
 > 🔄 **Formerly known as Jellyfin2Samsung.** Same tool, same people, bigger mission.
-> [Read the rebrand FAQ](https://github.com/Apps2Samsung/Apps2Samsung/discussions/365) — including what to do if your auto-update complains.
+> [Read the rebrand FAQ](https://github.com/Apps2Samsung/Apps2Samsung/discussions/365), including what to do if your auto-update complains.
 
 ---
 
@@ -51,7 +51,7 @@ Detects your Samsung device, handles certificates, installs any `.wgt` or `.tpk`
 ---
 
 ### 🧩 tizen-community-packages
-The **community catalog** — curated `.wgt` builds, bundled and synced automatically.
+The **community catalog**: curated `.wgt` builds, bundled and synced automatically.
 Moonlight, FCast, Stremio, Twitch, emulators, even Doom.
 
 ➡️ https://github.com/Apps2Samsung/tizen-community-packages
@@ -115,4 +115,4 @@ Every contribution helps someone else binge (or game, or cast) in peace 🍿
 
 ---
 
-💙 If your favourite app is now running on your Samsung screen because of this org — mission accomplished.
+💙 If your favourite app is now running on your Samsung screen because of this org: mission accomplished.
