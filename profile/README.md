@@ -7,89 +7,89 @@
 <p align="center"><i>Install any app on your Samsung TV.</i></p>
 
 <p align="center">
-  <a href="https://github.com/Apps2Samsung/Apps2Samsung">
-    <img alt="Installer" src="https://img.shields.io/github/v/release/Apps2Samsung/Apps2Samsung?label=installer&color=10b981">
+  <a href="https://github.com/Apps2Samsung/Apps2Samsung/releases/latest">
+    <img alt="Stable" src="https://img.shields.io/github/v/release/Apps2Samsung/Apps2Samsung?label=stable&color=10b981">
   </a>
   <a href="https://github.com/Apps2Samsung/tizen-community-packages">
-    <img alt="Community catalog" src="https://img.shields.io/badge/community-catalog-2dd4bf">
+    <img alt="Community catalog" src="https://img.shields.io/badge/community%20catalog-130%2B%20apps-2dd4bf">
   </a>
-  <a href="https://www.apps2samsung.com">
-    <img alt="Website" src="https://img.shields.io/badge/web-www.apps2samsung.com-181717">
+  <a href="https://apps2samsung.com">
+    <img alt="Website" src="https://img.shields.io/badge/web-apps2samsung.com-181717">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/Apps2Samsung/Apps2Samsung">
+  <a href="https://discord.gg/7mga3zh8Cv">
+    <img alt="Discord" src="https://img.shields.io/badge/Discord-community-5865F2?logo=discord&logoColor=white">
+  </a>
+  <a href="https://crowdin.com/project/jellyfin2samsung">
+    <img alt="Translate on Crowdin" src="https://img.shields.io/badge/translate-Crowdin-2e3340?logo=crowdin&logoColor=white">
+  </a>
 </p>
 
 ---
 
-📺 **Putting *your* apps on Samsung screens**  
-TVs, projectors, smart monitors, even the stubborn ones.
+📺 **Your apps on Samsung screens.** TVs, projectors, smart monitors, even the stubborn ones.
 
-This is a small, friendly corner of GitHub where people tinker, test, break things (sometimes),
-and put them back together so **any app can run on Samsung Tizen devices**:
-Jellyfin, Moonlight, Moonfin, Litefin and a whole community catalog.
+Samsung's store doesn't have everything, and Tizen Studio is nobody's idea of a fun evening. So this
+corner of GitHub does the boring part for you: find the TV, make the signing certificate, install
+the app. Jellyfin, Moonlight, emulators, IPTV players, a fireplace, even Doom.
 
-No company. No roadmap. Just curiosity and community.
-
-> 🔄 **Formerly known as Jellyfin2Samsung.** Same tool, same people, bigger mission.
-> [Read the rebrand FAQ](https://github.com/Apps2Samsung/Apps2Samsung/discussions/365), including what to do if your auto-update complains.
+No company. No roadmap. Just people who wanted their apps on their TV, and kept going.
 
 ---
 
-## 📦 What lives here?
+## 🚀 [Apps2Samsung](https://github.com/Apps2Samsung/Apps2Samsung)
 
-### 🚀 Apps2Samsung
-The installer for Windows, macOS and Linux, plus an Android app, an iPhone app (beta) and a command line.
-Detects your Samsung device, handles certificates, installs any `.wgt` or `.tpk` in one click.
+The installer. Pick your TV, pick an app, press Install.
 
-➡️ https://github.com/Apps2Samsung/Apps2Samsung
+| Runs on | Get it |
+|---|---|
+| 🪟 Windows | `winget install Apps2Samsung.Apps2Samsung`, or the zip / msi from a [release](https://github.com/Apps2Samsung/Apps2Samsung/releases/latest) |
+| 🍎 macOS | The [Homebrew tap](https://github.com/Apps2Samsung/homebrew-apps2samsung), or the dmg (Apple silicon and Intel) |
+| 🐧 Linux | `.deb`, `.rpm`, AppImage or `.tar.gz`, x64 and ARM64 |
+| 🤖 Android | [Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/Apps2Samsung/Apps2Samsung), the F-Droid repo `https://apps2samsung.com/fdroid/repo`, or the apk |
+| 📱 iPhone | Through [SideStore](https://sidestore.io), signed with your own Apple ID (a free one works) |
+| ⌨️ Terminal | `apps2samsung-cli`, for every platform, Termux included |
 
-- Auto TV discovery & Tizen certificate handling
-- Jellyfin builds, 110+ community apps, or bring your own `.wgt`
-- Manage what's on the TV, update apps, use it as a remote
-- 🌐 https://www.apps2samsung.com
-
----
-
-### 🧩 tizen-community-packages
-The **community catalog**: curated `.wgt` builds, bundled and synced automatically.
-Moonlight, FCast, Stremio, Twitch, emulators, even Doom.
-
-➡️ https://github.com/Apps2Samsung/tizen-community-packages
-
-- Want an app added? Open an issue
-- Maintain a Tizen app? We'd love to include it
+- **The whole catalog**, the Jellyfin builds (Moonfin, Litefin, TizenTube), or your own `.wgt` / `.tpk`
+- **Certificates handled**: one Samsung sign-in, or a Tizen certificate with no account at all
+- **Your TV, managed**: see what's installed, update, launch, uninstall, and use the app as a remote
+- **30 languages**, and it starts in yours
 
 ---
 
-### 🛒 TV-Store (experimental)
-The catalog on the TV itself: arm it once from Apps2Samsung, then browse and install apps with the remote, no PC or phone needed.
+## 🧩 [tizen-community-packages](https://github.com/Apps2Samsung/tizen-community-packages)
 
-➡️ https://github.com/Apps2Samsung/TV-Store
+The **community catalog**: 130+ apps, built or fetched, virus-scanned and bundled automatically,
+straight into Apps2Samsung and TV-Store. Media players, IPTV, streaming clients, games and
+emulators, casting, tools.
+
+- Want an app added? [Request it](https://github.com/Apps2Samsung/tizen-community-packages/issues/new/choose)
+- Made a Tizen app? [Contribute it](https://github.com/Apps2Samsung/tizen-community-packages/issues/new/choose): open source, or closed source with permission to redistribute
+
+---
+
+## 🛒 [TV-Store](https://github.com/Apps2Samsung/TV-Store)
+
+The catalog **on the TV itself**. Arm it once from Apps2Samsung, then browse with the remote, press
+OK, and the app installs. No PC or phone in the loop.
+
+---
+
+## 🗂️ [repository-template](https://github.com/Apps2Samsung/repository-template)
+
+Your own Apps2Samsung repository: your apps, under your name, signed with your key, in Apps2Samsung
+and TV-Store. Set up by clicking on GitHub, no terminal, about five minutes. Only one app? Then you
+don't even need it: people can add your GitHub link straight into Apps2Samsung.
 
 ---
 
 ### 🧰 Also here
-- [homebrew-apps2samsung](https://github.com/Apps2Samsung/homebrew-apps2samsung) and [winget-apps2samsung](https://github.com/Apps2Samsung/winget-apps2samsung): install the desktop app with your package manager
+- [homebrew-apps2samsung](https://github.com/Apps2Samsung/homebrew-apps2samsung) and [winget-apps2samsung](https://github.com/Apps2Samsung/winget-apps2samsung): the package manager side of the desktop app
+- [ReolinkViewer](https://github.com/Apps2Samsung/ReolinkViewer): watch a Reolink camera on the TV, no cloud, no helper box
 - [yt-dlp-tv](https://github.com/Apps2Samsung/yt-dlp-tv): the YouTube trailers fix for Jellyfin
-- [ReolinkViewer](https://github.com/Apps2Samsung/ReolinkViewer): watch a Reolink camera on the TV, no cloud
-
----
 
 ### 🧓 Archived
-- **The Orsay era**: for Samsung TVs from before 2015 running **Orsay OS**. End-of-life, no longer maintained,
-  but the last working builds remain available: https://github.com/Apps2Samsung/Jellyfin-Orsay-Installer
-- **Overscan**: a sideloadable web browser for Tizen TVs, discontinued: https://github.com/Apps2Samsung/Overscan
-
----
-
-## 🤔 Why does this exist?
-
-Because:
-- Samsung's app store doesn't have everything
-- Samsung TVs are… special
-- Community solutions beat abandoned forum posts
-
-If a screen can run Tizen, it deserves your apps.
+- [Jellyfin-Orsay-Installer](https://github.com/Apps2Samsung/Jellyfin-Orsay-Installer): for pre-2015 Samsung TVs on **Orsay**. End of life, the last working builds stay available
+- [Overscan](https://github.com/Apps2Samsung/Overscan): a sideloadable web browser for Tizen, discontinued
 
 ---
 
@@ -97,11 +97,11 @@ If a screen can run Tizen, it deserves your apps.
 
 You don't need to be an expert.
 
-- Found a bug? Open an issue
-- Tested it on a weird TV model? Please tell us
-- Built a Tizen app? Get it in the catalog
-- Like writing docs more than code? We love you already
-- 🌍 Translations: [Crowdin](https://crowdin.com/project/jellyfin2samsung)
+- 🐛 Found a bug? Open an issue, logs help
+- 📺 Tested on a weird TV model? Tell us, good news or bad
+- 🧩 Built a Tizen app? Get it in the catalog, or run your own repository
+- 🌍 Speak another language? [Translate on Crowdin](https://crowdin.com/project/jellyfin2samsung)
+- 💬 Just want to hang out? [Discord](https://discord.gg/7mga3zh8Cv)
 
 Every contribution helps someone else binge (or game, or cast) in peace 🍿
 
@@ -110,9 +110,11 @@ Every contribution helps someone else binge (or game, or cast) in peace 🍿
 ## ⚠️ The small print (friendly version)
 
 - Not affiliated with Samsung, Jellyfin, or any of the apps in the catalog
-- Stuff here works because people tested it, not because it's "official"
-- Enabling developer mode / sideloading is your call
+- Things work because people tested them, not because they're "official"
+- Developer Mode and sideloading are your call
+- Apps2Samsung is GPL-3.0-only from 3.3.0; releases up to 3.2.1 were MIT
+- 🔄 Formerly **Jellyfin2Samsung**: same tool, same people, [bigger mission](https://github.com/Apps2Samsung/Apps2Samsung/discussions/365)
 
 ---
 
-💙 If your favourite app is now running on your Samsung screen because of this org: mission accomplished.
+💙 If your favourite app now runs on your Samsung screen because of this org: mission accomplished.
